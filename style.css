@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 860px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr 504px 1fr;
+    background-color: #D4A388;
+}
+.profile-section{
+    grid-column: 2/3;
+    background-color: #A43F49;
+    position: fixed;
+    top: 0;
+    left: 20%;
+    text-align: center;
+    height: 400px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+.avater{
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.avater img{
+    width: 78px;
+    height: auto;
+}
+.title h2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: white;
+}
+.title span{
+    font-family: Red Rose;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: tomato;
+}
+.menu-section{
+    margin-top: 25px;
+    
+}
+.menu-section ul li{
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 8px 0; 
+}
+.menu-section a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+.social-icon{
+    margin-top: 20px;
+    padding: 0 2px;
+}
+.social-icon a{
+    display: inline-block;
+    margin-right: 2px;
+}
+.social-icon i{
+    font-size: 30px;
+    color: white;
+    
+}
+/*  */
+.sub-container{
+    grid-column: 4/5;
+    justify-items: center;
+    align-items: center;
+    background: #A8A8A8;
+    padding: 5px;
+    
+}
+
+/* About seection starts */
+
+.sub-container .about-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+ 
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+}
+.header{
+    grid-column: 1/3;
+    padding: 30px 0px;
+    text-align: center;
+}
+.sub-container .header h2{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.about-section .border-bottom{
+    width: 50px;
+    height: 2px;
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.sub-container .header p{
+    font-weight: 500;
+    font-size: 10px;
+}
+.about-section .img-box{
+  
+}
+.about-section .img-box img{
+    width: 100%;
+    height: 100%;
+}
+.about-section .content-box{
+    padding: 30px 0 0 10px;
+}
+.about-section .content-box h2{
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+    
+}
+.about-section .content-box p{
+    font-weight: 500;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.about-section .content-box a{
+    font-weight: 500;
+    font-size: 10px;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid burlywood;
+    background-color: burlywood;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+/* Skill section starts */
+.skill-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+ 
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    gap: 8px;
+    
+
+}
+.skill-section .border-bottom{
+    width: 150px;
+    height: 2px;
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.skill-box{
+    background-color: burlywood;
+    padding: 30px 15px;
+    border-radius: 8px;
+}
+.skill-box i{
+    color: rgb(243, 10, 10);
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.skill-box h2{
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+.skill-box p{
+    font-weight: 500;
+    font-size: 11px;
+}
+
+
+
+
+/* work section start */
+.work-section .border-bottom{
+    width: 75px;
+    height: 2px;
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.work-section .menus{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.work-section .menus ul li{
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+.work-section .menus ul li span{
+    width: 20px;
+    height: 2px;
+    border-bottom: 2px solid black;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    color: red;
+}
+.work-section .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+.work-section .grid .img-box{
+}
+.work-section .grid .img-box img{
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Contact Section starts */
+.contact-section{
+    margin-bottom: 50px;
+}
+.contact-section .border-bottom{
+    width: 100px;
+    height: 2px;
+    border-bottom: 1px solid black;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.contact-section .contact-box{
+    text-align: center;
+}
+.contact-section input{
+    width: 35%;
+    padding: 3px 0 3px 5px;
+    background: burlywood;
+    border-color: burlywood;
+}
+textarea{
+    width: 71%;
+    padding: 5px 0 0 5px;
+    background: burlywood;
+}
+.contact-section button{
+    background: burlywood;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
